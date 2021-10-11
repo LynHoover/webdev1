@@ -1,0 +1,73 @@
+
+body {
+
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color:rgb(81, 150, 196);
+    font-family: 'Scheherazade New', serif;
+    padding: 2rem;
+}
+
+header h2 {
+    font-weight: 200;
+}
+
+nav a {
+    color: rgb(81, 150, 196);
+    margin: 1rem;
+    color:rgb(7, 92, 14);
+}
+
+nav a:hover {
+    color:rgb(81, 150, 196);
+}
+
+img {
+    width: 100%;
+    max-width: 20rem;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    margin: 3rem 0;
+    border-left: .5rem solid rgb(81, 150, 196);
+    font-weight: 300;
+}
+
+main {
+    background: lightgray;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+section h3 {
+    background: rgb(179, 188, 197);
+    margin: 0;
+    padding: .5rem;
+    font-family: 'Scheherazade New', serif;
+    text-align: left;
+}
+
+section p {
+    background: rgb(7, 92, 14);
+    margin: 0;
+    padding: .5rem;
+}
+
+footer {
+    background: rgb(7, 92, 14);
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Scheherazade New', serif;
+    text-align:center;
+}
