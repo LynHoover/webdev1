@@ -1,0 +1,27 @@
+.box {
+  width:100px;
+  height: 100px;
+  border: 2em solid transparent;
+  border-radius: 50%;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  border-top: 2em solid pink;
+  border-bottom: 2em solid orange;
+  animation: rotate 4s infinite linear;
+  
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+  
+  50%{
+    background: beige;
+    border-radius: 100%;
+  }
+ 
+}

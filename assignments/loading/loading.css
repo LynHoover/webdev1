@@ -1,0 +1,29 @@
+.rectangle {
+  width: 400px;
+  height: 55px;
+  background: lightblue;
+  
+   display: grid;
+   place-items: center;
+   font-family: sans-serif;
+    
+   position: absolute;
+   left: 50%;
+   top: 50%;
+  font-family: sans-serif;
+  animation-name: slidein;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes slidein {
+  from { transform: translateX(0%);
+  }
+  
+  to {
+    background: lightgreen;
+    transform: translateX(100%);
+  }
+}
+  
