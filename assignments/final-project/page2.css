@@ -1,0 +1,105 @@
+
+body {
+
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: 'Scheherazade New', serif;
+    padding: 2rem;
+}
+
+header h2 {
+    font-weight: 400;
+}
+
+nav a {
+    color: rgb(81, 150, 196);
+    margin: 1rem;
+    color:rgb(216, 189, 223);
+    font-weight: 300;
+    background: rgb(224, 230, 236);
+    margin: 0;
+    padding: .5rem;
+    font-family: 'Scheherazade New', serif;
+    text-align: left;
+    padding: .5rem;
+}
+
+nav a:hover {
+    color:rgb(81, 150, 196);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5em;
+  }
+  
+  .gallery img {
+    width: 75%;
+  }
+ 
+  
+  .hover-card {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: block;
+  }
+  
+  .hover-card:hover .overlay {
+    opacity: .5;
+  }
+  
+  .overlay {
+    color: black;
+    background: #fff;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 2rem;
+    
+    display: grid;
+    place-items: center;
+    
+    transition: all .25s;
+  }
+  
+  .hover-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 700px) {
+    
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+footer {
+    background: rgb(81, 150, 196);
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Scheherazade New', serif;
+    text-align:center;
+}
